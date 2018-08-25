@@ -12,6 +12,8 @@ from datetime import datetime
 
 
 @api.route("/areas",methods=["GET"])
+
+
 def get_area_info():
     """获取城区信息"""
     #先尝试从redis中获取缓存数据
